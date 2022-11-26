@@ -1,0 +1,7 @@
+{% extends "base.html.twig" %}
+
+{% block body %}
+    {% for squirrel in squirrels %}
+        <h1>{{squirrel.name}}</h1>
+    {% endfor %}
+{% endblock %}
